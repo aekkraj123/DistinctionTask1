@@ -1,4 +1,4 @@
-name: Code-Validation-Test
+name: Lint Code Base
 
 on: 
  push:
