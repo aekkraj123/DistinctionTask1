@@ -27,8 +27,8 @@ header{
 	text-align:center;
 }
 
-header img{
-	width:10%;
+.headerimgicon{
+	width:5%;
 }
 #ARPhone h2,#ARPhoneUltra h2{
 	font-weight:normal;
