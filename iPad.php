@@ -7,37 +7,14 @@
 <title>::ARPhone::</title>
 <link rel="stylesheet" type="text/css" href="style.css">
 <link rel="icon" href="images/ARLogo.png">
+<link href="css/styles_aboutus.css" rel="stylesheet" />
+
+
 </head>
 <body>
-<header id="headerimg">
-<div id="header">
-<a href="index.html"><img src="images/ARLogo.png" alt="logo"></a>
-</div>
-<div id="blueborder">
-</div>
-</header>
-<nav>
-<div id="navigation">
-<ul>
-	<li><a href="aboutus.html">About Us</a></li>
-	<li><a href="argamingmain.html" target="_blank">AR Gaming</a></li>
-	<li>
-	<div class="dropdown">
-	<button class="dropbtn">Products</button>
-	<div class="dropdown-content">
-	<a href="ARPhone.html">ARPhone</a>
-	<a href="ARPad.html">ARPad</a>
-	<a href="AROperatingsystem.html">AROperatingsystem</a>
-	<a href="ARSurround71.html">ARSurround</a>
-	<a href="AROffice.html">AR Office</a></li>	
-	<li><a href="feedback.html">Feedback</a></li>
-	</div>
-	</div>
-</ul>
-</div>
-</nav>
-<div id="redborder">
-</div>
+	<header>
+		<?php include("header.php"); ?>
+	</header>
 
 <!--Start Editing from here!-->
 <article>
@@ -64,15 +41,10 @@
 </div>
 </div>
 </article>
-<footer>
-<div id="footertop">
-<h3>Footer</h3>
-<h4>Contact us for more information</h4>
-<p> 24 Hour Hotline: +1300-888-300 | Email: ar@customer.feedback.com | Or Visit an AR Store near you </p>
-<p> To find out more about the team: Click the link below</p>
-<p><span id="arphoneultralink"><a href="ourteam.html">Our Team</a><span></p>
-<p>&copy ARDIGITAL | Last updated: 25th June 2019</p>
-</div>
-</footer>
+	<div>
+    <footer>
+		<?php include("footer.php"); ?>
+	</footer>
+	</div>
 </body>
 </html>
