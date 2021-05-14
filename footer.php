@@ -9,7 +9,7 @@
   
 		  <!-- Grid column -->
 		  <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
-			<h6 class="mb-0">Get connected with us on social networks!</h6>
+			<h6 class="mb-0" style="color:white">Get connected with us on social networks!</h6>
 		  </div>
 		  <!-- Grid column -->
   
@@ -70,10 +70,10 @@
 		  <h6 class="text-uppercase font-weight-bold">Products</h6>
 		  <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
 		  <p>
-			<a href="iPhone.php">ARPhone</a>
+			<a href="iPhone.php">iPhones</a>
 		  </p>
 		  <p>
-			<a href="iPad.php">ARPad</a>
+			<a href="iPad.php">iPads</a>
 		  </p>
 		  
 
