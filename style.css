@@ -10,8 +10,6 @@ body{
 	padding-left:10px;
 	padding-right:10px;
 	padding-top:10px;
-*;
-
 }
         /*NAVIGATION STYLING*/
 nav img{
@@ -845,8 +843,9 @@ div table td{
 #ARHeadphoneBlueSea{
 	margin-top:10px;
 	
+}
 
-	#ARHeadphoneRedSun,#ARHeadphoneBlueSea{
+#ARHeadphoneRedSun,#ARHeadphoneBlueSea{
 	text-align:center;
 	font-family:productsans,arial;
 }
