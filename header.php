@@ -22,7 +22,7 @@
             </li>
             
             <li class="nav-item">
-                <a class="nav-link" href="feedback.php" style="color:black">Feedback</a>
+                <a class="nav-link" href="enquiry.php" style="color:black">Feedback</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="AboutUs.php" style="color:black">About Us</a>
