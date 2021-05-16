@@ -94,7 +94,8 @@ echo '
                 <p>
                     24 Hour Hotline: <a href="tel:+1300888300"><i class="fas fa-home mr-3">+1300-888-300</i></a></p>
                 <p>
-                    Email: <a href="mailto:ar@customer.feedback.com"><i class="fas fa-home mr-3">ar@customer.feedback.com</i></a>
+                    Email: <a href="mailto:ar@customer.feedback.com">
+                    <i class="fas fa-home mr-3">ar@customer.feedback.com</i></a>
                 </p>
 
 
