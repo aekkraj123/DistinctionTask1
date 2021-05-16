@@ -1,4 +1,5 @@
 <?php
+
 echo '
 <footer class="page-footer font-small unique-color-dark bg-white">
 
