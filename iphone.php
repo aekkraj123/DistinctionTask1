@@ -7,6 +7,7 @@
     <title>::ARPad::</title>
     <link rel="stylesheet" type="text/css" href="css/nav.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
+	<link href="css/styles_iphone.css" rel="stylesheet" />
     <!-- Bootstrap Plugin-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -27,29 +28,89 @@
 </header>
 
 <!--Start Editing from here!-->
-<article>
-    <div id="ARPad">
-        <div id="col1">
-            <img src="images/ARPad/ARPad(1).png" alt="image of ARPad">
-        </div>
-        <div id="col2">
-            <img src="images/ARPad/ARPad(2).png" alt="image of ARPad">
-        </div>
-        <div id="col3">
-            <h1>The ARPad</h1>
-            <p>It's all new,all screen and all powerful. Completely redesigned and packed with our most advanced
-                techonology, it will make you rethink what ARPad is capable of.</p>
-        </div>
-        <div id="col4">
-            <img src="images/ARPad/ARPad(4).png" alt="image of ARPad">
-        </div>
-        <div id="col5">
-            <p>Our new Liquid Retina display goes from edge to edge with a 6K resolution and Industry-leading colour
-                accuracy. True-to-life colour and ProMotion technology makes everything look brilliant and feel
-                responsive,giving you a wonderful display experience.</p>
-        </div>
-    </div>
-</article>
+<article id="AROfficeArticle">
+	<!-- Header 1 : "Get to know our Story" -->
+	<section class="cta">
+		<div class="cta-content">
+			<div class="container">
+				<h2>iPhones</h2>
+			</div>
+		</div>
+		<div class="overlay"></div>
+		</section>
+        <section>
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-lg-8">
+						<div class="p-5"><img class="img-fluid" src="images/iphoneimg1.png" alt="..." /></div>
+					</div>
+					<div class="col-lg-4">
+						<div class="p-5">
+							<h2 class="display-4">iPhone 12 Pro/12 Pro Max</h2>
+							<p>
+								<ul>
+									<li>12 mega pixel camera with full 4K video recording</li>
+									<li>IP68 Dust & Water Resistance</li>
+									<li>Surgical-Grade Stainless Steel Build</li>
+									<li>MagSafe</li>
+									<li>5G-Equipped</li>
+									<li>OLED Panel</li>
+									<li>From RM4,399</li>
+								</ul>
+							</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-lg-8">
+						<div class="p-5"><img class="img-fluid" src="images/iphoneimg2.png" alt="..." /></div>
+					</div>
+					<div class="col-lg-4">
+						<div class="p-5">
+							<h2 class="display-4">iPhone 11</h2>
+							<p>
+								<ul>
+									<li>12 mega pixel camera with full 4K video recording</li>
+									<li>IP67 Dust & Water Resistance</li>
+									<li>Aerospace-Grade Aluminium Build</li>
+									<li>Liquid Retina Display</li>
+									<li>From RM2,899</li>
+								</ul>
+							</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-lg-8">
+						<div class="p-5"><img class="img-fluid" src="images/iphoneimg3.png" alt="..." /></div>
+					</div>
+					<div class="col-lg-4">
+						<div class="p-5">
+							<h2 class="display-4">iPhone SE</h2>
+							<p>
+								<ul>
+									<li>12 mega pixel camera with full 4K video recording</li>
+									<li>Apple 13 Bionic</li>
+									<li>IP68 Dust & Water Resistance</li>
+									<li>Aerospace-Grade Aluminium Build</li>
+									<li>Wireless Charging</li>
+									<li>From RM1,999</li>
+								</ul>
+							</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		
+	
+	</article>
 <footer>
     <?php include("footer.php"); ?>
 </footer>

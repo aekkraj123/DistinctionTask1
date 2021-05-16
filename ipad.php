@@ -7,6 +7,7 @@
     <title>::ARPhone::</title>
     <link rel="stylesheet" type="text/css" href="css/nav.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
+	<link href="css/styles_ipad.css" rel="stylesheet" />
     <!-- Bootstrap Plugin-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -26,34 +27,90 @@
     <?php include("header.php"); ?>
 </header>
 
-<!--Start Editing from here!-->
 <article>
-    <div id="col1">
-        <div id="ARPhone">
-            <figure>
-                <img src="images/ARPhone/Arphone.png" class="arphone" alt="Arphone">
-            </figure>
-            <h1>The ARPhone</h1>
-            <p>Reimagine what your smartphone can do.Next generation Facial recognition software. The smartest, most
-                powerful chip in a smartphone. And a breakthrough quad-camera system with Depth Control, Ultra-wide lens
-                and Telephoto. The ARPhone is everything you love about a smartphone, taken to the extreme.</p>
-            <ul>
-                <li>64 Megapixel Primary Shooter</li>
-                <li>48MP Ultrawide Lens</li>
-                <li>20MP Telephoto Lens</li>
-                <li>10MP Depth Sensor</li>
-            </ul>
-        </div>
-    </div>
-    <div id="col2">
-        <div id="ARPhoneUltra">
-            <img src="images/ARPhone/ARPhoneUltra.png" class="ARPhoneUltra" alt="ARPhoneUltra">
-            <h1>ARPhone Ultra</h1>
-            <p>The best display we have produced yet. A 6K panel on a 6.5inch screen with a 144Hz refresh rate for the
-                best comfort and content consumption.</p>
-        </div>
-    </div>
-</article>
+		<section class="cta">
+			<div class="cta-content">
+				<div class="container">
+					<h2>
+						iPads
+					</h2>
+				</div>
+			</div>
+			<div class="overlay"></div>
+		</section>
+        <section>
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-lg-8">
+						<div class="p-5"><img class="img-fluid" src="images/ipadimg1.png" alt="..." /></div>
+					</div>
+					<div class="col-lg-4">
+						<div class="p-5">
+							<h2 class="display-4">iPad Pro 4th Gen</h2>
+							<p>
+								<ul>
+									<li>Supercharged New M1 Chip</li>
+									<li>XDR Liquid Retina Display</li>
+									<li>12mp TrueDepth Front Camera</li>
+									<li>12mp Wide Camera + 10mp Ultra Wide Camera</li>
+									<li>Thunderbolt Port</li>
+									<li>From RM4,399</li>
+								</ul>
+							</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-lg-8">
+						<div class="p-5"><img class="img-fluid" src="images/ipadimg2.png" alt="..." /></div>
+					</div>
+					<div class="col-lg-4">
+						<div class="p-5">
+							<h2 class="display-4">iPad Air 3rd Gen</h2>
+							<p>
+								<ul>
+									<li>11 Inch Liquid Retina Display</li>
+									<li>Touch ID</li>
+									<li>Powered by the A14 Bionic</li>
+									<li>12mp Wide Camera</li>
+									<li>Compatible with SmartFolio Keyboard</li>
+									<li>From RM2,599</li>
+								</ul>
+							</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-lg-8">
+						<div class="p-5"><img class="img-fluid" src="images/ipadimg3.png" alt="..." /></div>
+					</div>
+					<div class="col-lg-4">
+						<div class="p-5">
+							<h2 class="display-4">iPad 8th Gen</h2>
+							<p>
+								<ul>
+									<li>A12 Bionic Chip</li>
+									<li>10.2 inch Retina Display</li>
+									<li>8mp iSight camera</li>
+									<li>Apple Pencil Support (Gen1)</li>
+									<li>Touch ID</li>
+									<li>From RM1,499</li>
+								</ul>
+							</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		
+	
+	</article>
 <div>
     <footer>
         <?php include("footer.php"); ?>

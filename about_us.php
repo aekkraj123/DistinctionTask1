@@ -29,7 +29,7 @@
 <!--Start Editing from here!-->
 <article id="AROfficeArticle">
     <!-- Header 1 : "Get to know our Story" -->
-    <section class="cta">
+    <section class="cta2">
         <div class="cta-content">
             <div class="container">
                 <h2>
