@@ -8,8 +8,8 @@
 	<link rel="icon" href="images/ARLogo.png">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<!-- Bootstrap Plugin-->
-	<link href="css/styles_index.css" rel="stylesheet" />
- 
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+
 </head>
 
 <body>
