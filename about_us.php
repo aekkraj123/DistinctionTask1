@@ -7,7 +7,7 @@
 	<title>About Us</title>
 	<link rel="icon" href="images/ARLogo.png">
 	<!-- Bootstrap Plugin -->
-	<link href="css/styles_aboutus.css" rel="stylesheet" />
+	<link href="css/styles_about_us.css" rel="stylesheet" />
 	
 </head>
 <body>

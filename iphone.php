@@ -5,7 +5,7 @@
 <meta name="author" content="Aekkraj">
 <meta name="description" content="This is the webpage for the Product ARPhone.">
 <title>::ARPad::</title>
-<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="css/main.css">
 <link rel="icon" href="images/ARLogo.png">
 </head>
 <body>

@@ -6,7 +6,7 @@
 	<meta name="description" content="Homepage">
 	<title>Homepage</title>
 	<link rel="icon" href="images/ARLogo.png">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<!-- Bootstrap Plugin-->
 	<link href="css/styles_index.css" rel="stylesheet" />
  
@@ -48,7 +48,7 @@
 								An edge-to-edge OLED display. Ceramic Shield with four times better drop performance. And Night mode on every camera. iPhone 12 has it all — in two perfect sizes.
 							</p>
 						</div>
-						<div class="card-footer"><a class="btn btn-primary btn-sm" href="iPhone.php">Check Out all iPhones</a></div>
+						<div class="card-footer"><a class="btn btn-primary btn-sm" href="iphone.php">Check Out all iPhones</a></div>
 					</div>
 				</div>
 				<div class="col-md-4 mb-5">
@@ -58,7 +58,7 @@
 							<img class="img-fluid" src="images/homepageimg5.png" />
 							<p class="card-text">With A14 Bionic, you have the power to bring your ideas to life. Shoot a 4K video, then edit it on iPad Air. Use the second‑generation Apple Pencil to paint and illustrate with dynamic brushes and subtle shading.</p>
 						</div>
-						<div class="card-footer"><a class="btn btn-primary btn-sm" href="iPad.php">Check Out all iPads</a></div>
+						<div class="card-footer"><a class="btn btn-primary btn-sm" href="ipad.php">Check Out all iPads</a></div>
 					</div>
 				</div>
 				<div class="col-md-4 mb-5">

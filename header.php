@@ -16,8 +16,8 @@
                     Products
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item h4" href="iPhone.php" style="color:black">iPhone</a>
-                    <a class="dropdown-item h4" href="iPad.php" style="color:black">iPad</a>
+                    <a class="dropdown-item h4" href="iphone.php" style="color:black">iPhone</a>
+                    <a class="dropdown-item h4" href="ipad.php" style="color:black">iPad</a>
                 </div>
             </li>
             
@@ -25,7 +25,7 @@
                 <a class="nav-link" href="enquiry.php" style="color:black">Feedback</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="AboutUs.php" style="color:black">About Us</a>
+                <a class="nav-link" href="about_us.php" style="color:black">About Us</a>
             </li>
         </ul>
     </div>

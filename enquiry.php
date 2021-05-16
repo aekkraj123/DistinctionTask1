@@ -7,7 +7,7 @@
 <title>Enquiry</title>
 
 <link rel="stylesheet" type="text/css" href="css/styles_enquiry.css">
-<link rel="stylesheet" type="text/css" href="styleNav.css">
+<link rel="stylesheet" type="text/css" href="css/nav.css">
 <link rel="icon" href="images/ARLogo.png">
 
 <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">

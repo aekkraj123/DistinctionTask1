@@ -1,0 +1,883 @@
+			/*General Formatting*/
+
+@font-face{
+	font-family:"ProductSans";
+	src:url(../fonts/ProductSansRegular.ttf);
+}
+
+body{
+	font-family:ProductSans,Arial;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:10px;
+}
+        /*NAVIGATION STYLING*/
+nav img{
+	height:30px;
+}
+
+#header{
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+header{
+	text-align:center;
+}
+
+.headerimgicon{
+	width:5%;
+}
+#ARPhone h2,#ARPhoneUltra h2{
+	font-weight:normal;
+	line-height:30px;
+}
+
+#ARPhone ul{
+	list-style-type:none;
+}
+
+.ARPhoneUltra{
+	width:300px;
+}
+
+#ARPhoneUltra{
+	margin-top:10px;
+	background-color:white;
+	font-size:20px;
+}
+
+.arphone{
+	width:300px;
+}
+
+#ARPhone{
+	margin-left:10px;
+	margin-right:10px;
+	height:30%;
+	background-color:white;
+	font-size:20px;
+}
+
+#col1 img,#col2 img{
+	width:500px;
+}
+#col4 img{
+	width:900px;
+}
+#col3{
+	clear:both;
+	margin-left:10px;
+	margin-right:10px;
+	text-align:center;
+
+}
+#headerimg{
+	background-image:url("images/background5.jpg");
+}
+#col3 h1{
+	font-size:40px;
+}
+
+#col3 p,#col5 p{
+	font-size:30px;
+}
+
+#col4,#col5{
+	margin-left:10px;
+	margin-right:10px;
+	text-align:center;
+}
+
+#blueborder{
+	margin-top:5px;
+	margin-bottom:5px;
+	height:5px;
+	background-color:red;
+}
+
+
+nav ul{
+	list-style-type:none;
+	margin: 0;
+  	padding: 0;
+	text-align:center;
+	font-size:14pt;
+	font-weight:bold;
+	font-family:ProductSans,Arial;
+}
+
+nav li{
+	display:inline;
+	padding-left:50px;
+	padding-right:50px;	
+}
+
+#redborder{
+	margin-top:5px;
+	margin-bottom:15px;
+	height:5px;
+	background-color:blue;
+}
+
+a:link,a:visited{
+	color:black;
+	text-decoration:none;
+}
+
+a:hover{
+	color:red;
+	text-decoration:none;
+}
+
+a:active{
+	color:purple;
+	text-decoration:blue;
+}
+
+#col1,#col2{
+	width:45%;
+	text-align:center;
+}
+
+#col1{
+	float:left;
+	margin-bottom:10px;
+	margin-left:3%
+}
+
+#col2{
+	float:left;
+	margin-left:3%;
+	margin-bottom:10px;
+}
+
+#footerbottom{
+	clear:both;
+	background-color:#d2d4d8;
+	color:black;
+	padding:15px;
+	text-align:center;
+}
+
+#footertop{
+	clear:both;
+	background-color:#3e4144;
+	text-align:center;
+	color:white;
+	padding-bottom:10px;
+	padding-top:20px;
+}
+
+.dropbtn{
+	border:none;
+	background-color:white;
+	font-family:ProductSans,Arial;
+	font-size:18px;
+	font-weight:bold;
+
+}
+
+.dropdown{
+	position:relative;
+	display:inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  text-align:left;
+}
+
+.dropdown-content a{
+	color:black;
+	padding:12px 16px;
+	text-decoration:none;
+	display:block;
+}
+
+.dropdown:hover .dropdown-content{display:block;}
+.dropdown-content a:hover {background-color:red;}
+.dropdown:hover .dropbtn {background-color:blue;}
+
+
+/* Styling for Homepage (index.html)*/
+#row1homepage{
+	width:60%;
+	float:left;
+	z-index:-1;
+	
+}
+#row1title{
+	text-align:right;
+	color:red;
+	font-size:40px;
+}
+#row2homepage{
+	clear:both;
+	width:100%;
+	background-color:black;
+}
+#row2homepage figure{
+	text-align:center;
+}
+#row2homepage{
+		position:relative;
+}
+#row2homepage p{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	color:#e4e6eb;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+	font-weight:bold;
+	font-size:40px;
+}
+
+
+#HeaderandNav{
+	
+}
+#arphoneultralink a:link{
+	background-color:white;
+}
+
+
+			/*END OF INDEX.HTML CSS*/
+
+			/*Styling for OurTeam.html*/
+#col1-1,#col2-1,#col3-1,#col4-1{
+	clear:both;
+	float:left;
+	background-color:black;
+	width:30%;
+	text-align:center;
+	margin-bottom:5px;
+}
+
+#col1-2,#col2-2,#col3-2,#col4-2{
+	float:left;
+	background-color:#e4e6eb;
+	text-align:center;
+	width:69%;
+	height:305px;
+	margin-left:5px;
+}
+
+#grp img{
+	height:250px;
+	padding:10px;
+}
+
+grp{
+	display:table;
+	width:100%;
+}
+
+#col1-2,#col2-2,#col3-2,#col1-1,#col2-1,#col3-1,#col4-1,#col4-2{
+	display:table-cell;
+}
+				/*END OF OURTEAM.style*/
+
+				/* Styling for feedback.style */
+#contactform{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+#contact h1 {
+ margin: 10px 0 10px; 
+ font-size: 24px; 
+ color: #333333; 
+}
+ 
+#contact { 
+	display: block; 
+	width: 650px; 
+	margin: 50px auto; 
+	padding: 35px; 
+	border: 1px solid #cbcbcb; 
+	background-color: #FFF; 	
+}
+
+#submit{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#contact hr{
+	color: inherit; 
+	height: 0; 
+ 	margin: 6px 0 6px 0; 
+ 	padding: 0; 
+ 	border: 1px solid #d9d9d9;
+ 	border-style: none;
+}
+
+				/* END OF feedback.style */
+
+				/* Styling for AR Gaming's (Dave, Gerald)*/
+/* ar gaming general formatting */
+#body2{	
+	background-color: #239CD5;				
+}
+
+
+.arglogo{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#header3{
+	padding-top:5px;
+	padding-bottom:5px;
+	text-align:center;
+	background-image:url("images/background3.jpg");
+	background-size: 100% 100%;	
+}
+
+#bborder2{
+	margin-top:5px;
+	margin-bottom:5px;
+	height:7.5px;
+	background-color:#000080;
+}
+
+#rborder2{
+	margin-top:5px;
+	margin-bottom:15px;
+	height:7.5px;
+	background-color:#000080;
+}
+
+#mbrd:hover{
+	color:silver;
+	text-decoration:none;
+}
+
+#mbrd:active{
+	color:#B3CBE4;
+	text-decoration:blue;
+}
+
+.arggp{
+	font-size:22px;
+	color:silver;
+}
+
+.dropbtn2{
+	border:none;
+	background-color:#239CD5;
+	font-family:ProductSans,Arial;
+	font-size:19px;
+	font-weight:bold;
+}
+.dropdown2{
+	position:relative;
+	display:inline-block;
+}
+
+.dropdown-content2 {
+  display: none;
+  position: absolute;
+  background-color:#9bbff5;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  text-align:left;
+}
+
+.dropdown-content2 a{
+	color:black;
+	padding:12px 16px;
+	text-decoration:none;
+	display:block;
+}
+
+.dropdown2:hover .dropdown-content2{display:block;}
+.dropdown-content2 a:hover {background-color:silver;}
+.dropdown2:hover .dropbtn2 {background-color:#239CD5;}
+.dropbtn2:hover{color:silver;}
+
+#footerbottom2{
+	clear:both;
+	background-color:#d2d4d8;
+	color:black;
+	padding:10px;
+	text-align:center;
+}
+
+#footertop2{
+	clear:both;
+	background-color:#3e4144;
+	text-align:center;
+	color:white;
+	padding-bottom:5px;
+	padding-top:10px;
+}
+
+#footertop2 a{
+	color:#239CD5;		
+}
+
+#footertop2 a:hover{
+	color:red;		
+}
+
+#footertop2 a:active{
+	color:purple;		
+}
+
+/* ar gaming homepage */
+#col1gmm{
+	text-align:center;	
+}
+
+.argmainlogo{
+	width:60%;	
+}
+ 
+.arggp h2{
+	float:left;
+	font-size:90px;
+	margin-left:3%;
+	margin-bottom:10px;
+}
+
+#col2gmm{
+	float:center;
+	text-align:right;
+	margin-right:3%;
+	margin-bottom:10px;
+}
+
+#vidg{
+	margin-left:3%;
+	margin-bottom:10px;
+	text-align:right;
+	font-style:italic;
+}
+
+#esl11{
+	text-decoration:underline;
+	color:silver;
+}
+
+/* ar gaming mouse, ar gaming mech keyboard */
+#col2gmu{
+	float:left;
+	margin-left:3%;
+	margin-bottom:10px;
+}
+
+#col3gmu{
+	float:left;
+	margin-left:3%;
+	margin-bottom:10px;
+}
+
+#argmouse,#argmouse2,#argmouse3{
+	text-align:center;
+	font-family:productsans,arial;
+	display: block;
+}
+#arlaptop{
+	text-align:center;
+}
+.argaminggear{
+	width:300px;
+}
+
+.ARgmp{
+	width:300px;	
+}
+
+#argmouse{
+	margin-left:10px;
+	margin-right:10px;
+	height:30%;
+}
+
+#argmouse2{
+	margin-left:10px;
+	margin-right:10px;
+	height:50%;
+}
+
+#argmouse3{
+	text-align:left;
+	border:6px solid silver;
+	border-radius: 50px;
+	padding:20px;
+}
+
+#argmouse3 ul{
+	list-style-type:none;
+	text-align:left;
+}
+
+#argmouse3 ul li{
+	text-align:left;	
+}
+
+#mu2{
+	text-align:left;
+}
+
+#requirementm li{
+	list-style-type:disc;
+}
+
+#argmkb{
+	text-align:left;
+}
+
+#argmkb ul{
+	list-style-type:none;
+	text-align:left;
+}
+
+#argmkb ul p{
+	list-style-type:none;
+	text-align:left;
+}
+
+.mechhhk{
+	border:5px solid silver;
+	border-radius: 25px;
+	padding:6px;
+}
+
+#requirementkb li{
+	list-style-type:disc;
+}
+
+#col1kb img{
+	width:100%;
+}
+
+#col2kb img{
+	width:70%;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+}
+
+#col1kb,#col2kb{
+	width:47%;
+	text-align:center;
+}
+
+#col1kb{
+	float:left;
+	margin-bottom:10px;
+	margin-left:3%;
+	text-align:left;
+}
+
+#col2kb{
+	float:left;
+	margin-left:3%;
+	margin-bottom:10px;
+}
+
+#arggpkb{
+	font-size:20px;
+	color:silver;
+	text-align:left;
+}
+
+/* ar gaming motherboard */
+#col1md,#col2md{
+	width:90%;
+	text-align:center;
+}
+
+#col1md{
+	display:inline;
+}
+
+#col2md{
+	float:center;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#col2md table th{
+	text-align:left;
+	color:white;
+	background-color:black;
+}
+
+#col2md table td{
+	border: 5px solid black;
+	border-collapse:collapse;
+	background-color:white;
+	text-align:left;
+}
+
+#mdcap {
+	caption-side:left;
+	font-size:20px;
+}
+
+#argmd{
+	padding-top:5px;
+	padding-bottom:15px; 	
+}
+
+/* ar gaming pages java back to top button */
+#back-to-top-btn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 26px;
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+  outline: none;
+  border: 3px solid #333;
+  border-radius: 50%;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  transition-property: background-color, color;
+}
+#back-to-top-btn:hover, #back-to-top-btn:focus {
+  background-color: #333;
+  color: #fff;  
+}
+
+@media(max-width: 992px) {
+  .container { padding: 20px 100px; }
+  #back-to-top-btn { font-size: 22px; width: 40px; height: 40px; bottom: 15px; right: 15px; }
+}
+@media(max-width:768px) {
+  body { font-size: 16px; }
+  .container { padding: 10px 50px; }
+  h1 { font-size: 26px; }
+  h2 { font-size: 22px; }
+  hr { margin: 30px 0; }
+  #back-to-top-btn { font-size: 18px; width: 32px; height: 32px; bottom: 6px; right: 6px; }
+}
+
+/* Animations */
+.btnEntrance {
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-name: btnEntrance;
+}
+/* zoomIn */
+/* @keyframes btnEntrance { 
+  from {
+    opacity: 0;
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+  to {
+    opacity: 1;
+  }    
+} */
+
+/* fadeInUp */
+@keyframes btnEntrance {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.btnExit {
+  animation-duration: 0.25s;
+  animation-fill-mode: both;  
+  animation-name: btnExit;
+}
+/* zoomOut */
+/* @keyframes btnExit {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+} */
+
+/* fadeOutDown */
+@keyframes btnExit {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+}
+
+	/* End of AR Gaming CSS*/
+
+	/*Sean's AROperatingSystem Style*/
+
+#AROperatingsystem p img{
+	width:900px;	
+}
+
+article p{
+	text-align:center;
+}
+
+div table{
+	border: 5px solid black;
+	border-collapse:collapse;
+}
+
+div table td{
+	border: 5px solid black;
+	border-collapse: collapse;
+}
+
+#reqtype{
+	background-color: red;
+	color: white;
+	border: 5px solid black;
+}
+#sysreq{
+	background-color: blue;
+	color: white;
+	border: 5px solid black;
+}
+#AROFFICE{
+	font-size: 20px;
+	text-align: center;
+}
+#col1_office{
+	text-align: center;
+}
+#col2_office{
+
+	text-align: center;
+}
+#col3_office{
+	text-align:center;
+}
+#AROfficeArticle{
+	text-align:center;
+}
+#AROfficeArticle img{
+	width:600px;
+}
+#AROfficeArticle figcaption{
+	font-style:italic;
+}
+
+			/* END OF SEAN's PART*/
+			
+			/* AR Gaming Gerald's Part */
+			
+#ARLaptop,#ARLaptopDragon{
+	text-align:center;
+	font-family:productsans,arial;
+}
+
+.arlaptop{
+	width:300px;
+}
+
+#ARLaptop{
+	margin-left:10px;
+	margin-right:10px;
+	height:30%;
+}
+#ARLaptop h2,#ARLaptopDragon h2{
+	font-weight:normal;
+	line-height:30px;
+}
+#ARLaptop ul{
+	list-style-type:none;
+
+
+}
+.ARLaptopDragon{
+	width:300px;
+}
+#arlaptopdragon{
+	text-align:center;
+}
+
+#ARHeadphoneRedSun,#ARHeadphoneBlueSea{
+	text-align:center;
+	font-family:productsans,arial;
+}
+
+.arheadphone{
+	width:300px;
+}
+
+#ARHeadphoneRedSun{
+	margin-left:10px;
+	margin-right:10px;
+	height:30%;
+}
+#ARHeadphone h2,#ARHeadphoneBlueSea h2{
+	font-weight:normal;
+	line-height:30px;
+}
+#ARHeadphoneRedSun ul{
+	list-style-type:none;
+
+
+}
+.ARHeadphoneBlueSea{
+	width:300px;
+}
+#ARHeadphoneBlueSea{
+	margin-top:10px;
+	
+}
+
+#ARHeadphoneRedSun,#ARHeadphoneBlueSea{
+	text-align:center;
+	font-family:productsans,arial;
+}
+
+.arheadphone{
+	width:300px;
+}
+
+#ARHeadphoneRedSun{
+	margin-left:10px;
+	margin-right:10px;
+	height:30%;
+}
+#ARHeadphone h2,#ARHeadphoneBlueSea h2{
+	font-weight:normal;
+	line-height:30px;
+}
+#arheadphone li{
+	list-style-type:none;
+
+
+}
+.ARHeadphoneBlueSea{
+	width:300px;
+}
+#ARHeadphoneBlueSea{
+	margin-top:10px;
+}
+	/*END OF GERALD'S CSS*/
+	/*END OF CSS*/
+
+
+
+
+

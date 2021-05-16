@@ -5,9 +5,9 @@
 <meta name="author" content="Aekkraj">
 <meta name="description" content="This is the webpage for the Product ARPhone.">
 <title>::ARPhone::</title>
-<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="css/main.css">
 <link rel="icon" href="images/ARLogo.png">
-<link href="css/styles_aboutus.css" rel="stylesheet" />
+<link href="css/styles_about_us.css" rel="stylesheet" />
 
 
 </head>
