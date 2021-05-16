@@ -23,3 +23,6 @@ jobs:
           VALIDATE_JAVASCRIPT_STANDARD: false
           VALIDATE_JAVASCRIPT_ES: false
           VALIDATE_JSCPD: false
+          VALIDATE_PHP_PSALM: false
+          VALIDATE_PHP_PHPSTAN: false
+          VALIDATE_PHP_PHPCS: false
