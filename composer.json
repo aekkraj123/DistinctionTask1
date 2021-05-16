@@ -1,6 +1,9 @@
 {
     "require-dev": {
-        "phpunit/phpunit": "9"
+        "ext-curl": "*",
+        "ext-dom": "*",
+        "ext-json": "*",
+        "phpunit/phpunit": "9.*"
     },
     "autoload": {
         "psr-4": {
