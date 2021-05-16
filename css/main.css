@@ -1,129 +1,122 @@
-/* CSS for Homepage Banner*/
-
 header.masthead {
-    position: relative;
-    width: 100%;
-    padding-top: 150px;
-    padding-bottom: 100px;
-    color: white;
-    background: url("../assets/img/bg-pattern.png"), #7b4397;
-    background: url("../assets/img/bg-pattern.png"), linear-gradient(to left, #7b4397, #dc2430);
+  position: relative;
+  width: 100%;
+  padding-top: 150px;
+  padding-bottom: 100px;
+  color: white;
+  background: linear-gradient(to left, #7b4397, #dc2430);
 }
 
-    header.masthead .header-content {
-        max-width: 500px;
-        margin-bottom: 100px;
-        text-align: center;
-    }
+header.masthead .header-content {
+  max-width: 500px;
+  margin-bottom: 100px;
+  text-align: center;
+}
 
-        header.masthead .header-content h1 {
-            font-size: 30px;
-        }
+header.masthead .header-content h1 {
+  font-size: 30px;
+}
 
-    header.masthead .device-container {
-        max-width: 325px;
-        margin-right: auto;
-        margin-left: auto;
-    }
+header.masthead .device-container {
+  max-width: 325px;
+  margin-right: auto;
+  margin-left: auto;
+}
 
-        header.masthead .device-container .screen img {
-            border-radius: 3px;
-        }
+header.masthead .device-container .screen img {
+  border-radius: 3px;
+}
 
 @media (min-width: 992px) {
-    header.masthead {
-        height: 100vh;
-        min-height: 775px;
-        padding-top: 0;
-        padding-bottom: 0;
+  header.masthead {
+    height: 100vh;
+    min-height: 775px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  header.masthead .header-content {
+    margin-bottom: 0;
+    text-align: left;
+  }
+
+  header.masthead .header-content h1 {
+    font-size: 50px;
+  }
+
+  header.masthead .device-container {
+    max-width: 325px;
+  }
+
+  section.cta {
+    position: relative;
+    padding: 250px 0;
+    background-image: url("../images/homepageimg3.png");
+    background-position: center;
+    background-size: cover;
+  }
+
+  section.cta .cta-content {
+    position: relative;
+    z-index: 1;
+  }
+
+  section.cta .cta-content h2 {
+    font-size: 50px;
+    max-width: 450px;
+    margin-top: 0;
+    margin-bottom: 25px;
+    color: white;
+  }
+
+  @media (min-width: 768px) {
+    section.cta .cta-content h2 {
+      font-size: 80px;
     }
+  }
 
-        header.masthead .header-content {
-            margin-bottom: 0;
-            text-align: left;
-        }
+  section.cta .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
 
-            header.masthead .header-content h1 {
-                font-size: 50px;
-            }
+  section.cta2 {
+    position: relative;
+    padding: 250px 0;
+    background-image: url("../images/aboutusimg4.png");
+    background-position: center;
+    background-size: cover;
+  }
 
-        header.masthead .device-container {
-            max-width: 325px;
-        }
+  section.cta2 .cta-content {
+    position: relative;
+    z-index: 1;
+  }
 
-    /* CSS For Homepage Banner (CTA for About Us)*/
+  section.cta2 .cta-content h2 {
+    font-size: 50px;
+    max-width: 450px;
+    margin-top: 0;
+    margin-bottom: 25px;
+    color: white;
+  }
 
-    section.cta {
-        position: relative;
-        padding: 250px 0;
-        background-image: url("../images/homepageimg3.png");
-        background-position: center;
-        background-size: cover;
+  @media (min-width: 768px) {
+    section.cta2 .cta-content h2 {
+      font-size: 80px;
     }
+  }
 
-        section.cta .cta-content {
-            position: relative;
-            z-index: 1;
-        }
-
-            section.cta .cta-content h2 {
-                font-size: 50px;
-                max-width: 450px;
-                margin-top: 0;
-                margin-bottom: 25px;
-                color: white;
-            }
-
-    @media (min-width: 768px) {
-        section.cta .cta-content h2 {
-            font-size: 80px;
-        }
-    }
-
-    section.cta .overlay {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: rgba(0, 0, 0, 0.5);
-    }
-
-    /* CSS For About Us Page's Banner*/
-
-    section.cta2 {
-        position: relative;
-        padding: 250px 0;
-        background-image: url("../images/aboutusimg4.png");
-        background-position: center;
-        background-size: cover;
-        section .cta .cta-content
-    }
-
-        section.cta2 .cta-content {
-            position: relative;
-            z-index: 1;
-        }
-
-            section.cta2 .cta-content h2 {
-                font-size: 50px;
-                max-width: 450px;
-                margin-top: 0;
-                margin-bottom: 25px;
-                color: white;
-            }
-
-    @media (min-width: 768px) {
-        section.cta2 .cta-content h2 {
-            font-size: 80px;
-        }
-    }
-
-    section.cta2 .overlay {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: rgba(0, 0, 0, 0.5);
-    }
+  section.cta2 .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+}

@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -23,7 +23,7 @@
 </head>
 <body>
 <header>
-    <?php include("header.php"); ?>
+  <?php include("header.php"); ?>
 </header>
 
 <!--Start Editing from here!-->
@@ -96,7 +96,7 @@
 </article>
 
 <footer>
-    <?php include("footer.php"); ?>
+  <?php include("footer.php"); ?>
 </footer>
 </body>
 </html>

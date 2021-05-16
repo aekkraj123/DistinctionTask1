@@ -25,7 +25,7 @@
 <body>
 
 <header>
-    <?php include("header.php"); ?>
+  <?php include("header.php"); ?>
 </header>
 
 <article>
@@ -39,7 +39,7 @@
 </article>
 
 <footer>
-    <?php include("footer.php"); ?>
+  <?php include("footer.php"); ?>
 </footer>
 
 </body>
