@@ -26,7 +26,7 @@
 
 <body>
 <header>
-    <?php include("header.php"); ?>
+  <?php include("header.php"); ?>
 </header>
 <div class="hero-image">
     <div class="hero-text">
@@ -66,7 +66,7 @@
 </div>
 
 <footer>
-    <?php include("footer.php"); ?>
+  <?php include("footer.php"); ?>
 </footer>
 </body>
 </html>
