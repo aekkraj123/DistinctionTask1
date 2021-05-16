@@ -71,10 +71,10 @@
                 <h6 class="text-uppercase font-weight-bold">Products</h6>
                 <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
                 <p>
-                    <a href="iphone.php">ARPhone</a>
+                    <a href="iphone.php">iPhone</a>
                 </p>
                 <p>
-                    <a href="ipad.php">ARPad</a>
+                    <a href="ipad.php">iPad</a>
                 </p>
 
 
