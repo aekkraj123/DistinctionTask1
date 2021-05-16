@@ -4,7 +4,8 @@ on:
  push:
     branches-ignore: []
  pull_request:
-    branches: []
+    branches:
+     - main
 
 jobs:
   super-lint:
