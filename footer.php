@@ -1,3 +1,5 @@
+<?php
+echo '
 <footer class="page-footer font-small unique-color-dark bg-white">
 
     <div style="background-color: #6351ce;">
@@ -111,3 +113,4 @@
     <!-- Copyright -->
 
 </footer>
+';
