@@ -54,7 +54,7 @@
             </div>
             <div class="form-group">
                 <label for="inputsubject">Subject*</label>
-                <input type="email" class="form-control" id="inputsubject" placeholder="">
+                <input type="text" class="form-control" id="inputsubject" placeholder="">
             </div>
             <div class="form-group">
                 <label for="txtarea">Message*</label>
