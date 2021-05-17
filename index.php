@@ -105,7 +105,7 @@
                         Purchase with Confidence. Check out our story.
                     </h2>
                     <a class="btn btn-outline-light py-3 px-4 rounded-pill js-scroll-trigger" 
-                    href="Aboutus.php">
+                    href="about_us.php">
                         About Us
                     </a>
                 </div>
