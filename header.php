@@ -2,7 +2,7 @@
 
 echo '
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" href="index.php">
         <img src="images/logo.png" alt="logo">
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
@@ -27,7 +27,7 @@ echo '
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="enquiry.php" style="color:black">Feedback</a>
+                <a class="nav-link" href="enquiry.php" style="color:black">Enquiry</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="about_us.php" style="color:black">About Us</a>
