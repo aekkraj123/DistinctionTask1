@@ -37,7 +37,9 @@
                     <div class="col-lg-7 my-auto">
                         <div class="header-content mx-auto">
                             <h1 class="mb-5">Malaysia's largest Apple premium reseller. </h1>
-                            <a class="btn btn-outline-light py-3 px-4 rounded-pill js-scroll-trigger" href="enquiry.php">Enquire Now!</a>
+                            <a class="btn btn-outline-light py-3 px-4 rounded-pill js-scroll-trigger" href="enquiry.php">
+                                Enquire Now!
+                            </a>
                         </div>
                     </div>
                     <div class="col-lg-5 my-auto">
@@ -101,7 +103,9 @@
                     <h2>
                         Purchase with Confidence. Check out our story.
                     </h2>
-                    <a class="btn btn-outline-light py-3 px-4 rounded-pill js-scroll-trigger" href="Aboutus.php">About Us</a>
+                    <a class="btn btn-outline-light py-3 px-4 rounded-pill js-scroll-trigger" href="Aboutus.php">
+                        About Us
+                    </a>
                 </div>
             </div>
             <div class="overlay"></div>
