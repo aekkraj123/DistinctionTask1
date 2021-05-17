@@ -1,10 +1,10 @@
 name: Lint Code Base
 
-on: 
- push:
-    branches-ignore: []
- pull_request:
-    branches: [main]
+on:
+  push:
+    branches-ignore: [ ]
+  pull_request:
+    branches: [ main ]
 
 jobs:
   super-lint:
@@ -23,3 +23,23 @@ jobs:
           VALIDATE_JAVASCRIPT_STANDARD: false
           VALIDATE_JAVASCRIPT_ES: false
           VALIDATE_JSCPD: false
+          VALIDATE_PHP_PSALM: false
+          VALIDATE_PHP_PHPSTAN: false
+          VALIDATE_PHP_PHPCS: false
+
+  build-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: php-actions/composer@v5
+
+      - name: PHPUnit Tests
+        uses: php-actions/phpunit@v2
+        env:
+          TEST_NAME: Scarlett
+        with:
+          bootstrap: vendor/autoload.php
+          configuration: tests/phpunit.xml
+          args: --coverage-text
