@@ -1,3 +1,58 @@
+<?php
+require_once('php/FormValidator.php');
+require_once('php/Enquiry.php');
+require_once('php/Database.php');
+
+$error_message = null;
+$success_message = null;
+$form_data = null;
+
+function areAllFormValuesNotEmpty() : bool {
+    return (
+        isset($_POST['fname']) &&
+        isset($_POST['lname']) &&
+        isset($_POST['email']) &&
+        isset($_POST['subject']) &&
+        isset($_POST['message'])
+    );
+}
+
+if (isset($_POST['submit'])) {
+    $success_message = null;
+    if (areAllFormValuesNotEmpty()) {
+        $enquiry = new \app\Enquiry(
+            $_POST['fname'],
+            $_POST['lname'],
+            $_POST['email'],
+            $_POST['subject'],
+            $_POST['message']
+        );
+
+        if ($enquiry->isValid()) {
+            $error_message = null;
+            $db = new \app\Database('root', '', 'swe20001_dt');
+            $db->insert('enquiry',
+                array(
+                    array(
+                        'first_name' => $enquiry->getFname(),
+                        'last_name' => $enquiry->getLname(),
+                        'email' => $enquiry->getEmail(),
+                        'subject' => $enquiry->getSubject(),
+                        'message' => $enquiry->getMessage(),
+                    )
+                )
+            );
+            $success_message = 'Enquiry saved. One of our agents will be in contact with you shortly.';
+        } else {
+            $error_message = 'Invalid form data. Please try again.';
+        }
+    } else {
+        $error_message = 'All fields are required.';
+    }
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -37,30 +92,51 @@
 <div class="card form-card shadow">
     <div class="card-body">
         <h2 class="card-title">Enquiry Form</h2>
-        <form action="">
+        <?php
+        if ($error_message != null) {
+            echo '
+                <div class="alert alert-danger alert-dismissible fade show my-4" role="alert">
+                    <strong>Error!</strong> '.$error_message.'
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+            ';
+        } else if ($success_message != null) {
+            echo '
+                <div class="alert alert-success alert-dismissible fade show my-4" role="alert">
+                    <strong>Success!</strong> '.$success_message.'
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+            ';
+        }
+        ?>
+        <form action="" method="post">
             <div class="form-row">
                 <div class="form-group col-md-6">
-                    <label for="inputfname">First name*</label>
-                    <input type="text" class="form-control" id="inputfname" placeholder="John">
+                    <label for="fname">First name*</label>
+                    <input type="text" class="form-control" name="fname" placeholder="John" />
                 </div>
                 <div class="form-group col-md-6">
-                    <label for="inputlname">Last name</label>
-                    <input type="text" class="form-control" id="inputlname" placeholder="Doe">
+                    <label for="lname">Last name</label>
+                    <input type="text" class="form-control" name="lname" placeholder="Doe" />
                 </div>
             </div>
             <div class="form-group">
-                <label for="inputemail">Email address*</label>
-                <input type="email" class="form-control" id="inputemail" placeholder="JohnDoe@gmail.com">
+                <label for="email">Email address*</label>
+                <input type="email" class="form-control" name="email" placeholder="JohnDoe@gmail.com" />
             </div>
             <div class="form-group">
-                <label for="inputsubject">Subject*</label>
-                <input type="text" class="form-control" id="inputsubject" placeholder="">
+                <label for="subject">Subject*</label>
+                <input type="text" class="form-control" name="subject" placeholder="" />
             </div>
             <div class="form-group">
-                <label for="txtarea">Message*</label>
-                <textarea class="form-control" id="txtarea" rows="5" placeholder="Write us a message"></textarea>
+                <label for="message">Message*</label>
+                <textarea class="form-control" name="message" rows="5" placeholder="Write us a message"></textarea>
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" name="submit" class="btn btn-primary">Submit</button>
         </form>
     </div>
 </div>
