@@ -14,5 +14,8 @@
         "psr-4": {
             "App\\Test\\": "test"
         }
+    },
+    "require": {
+        "ext-pdo": "*"
     }
 }
