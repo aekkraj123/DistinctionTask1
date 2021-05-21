@@ -34,4 +34,13 @@ final class EnquiryTest extends TestCase
      $enquiry = new Enquiry("John", "Doe", "JohnDoe@gmail.com", "Subject", "Message");
       $this->assertEquals("Message", $enquiry->get_message());
    }
+
+   public function testIs_valid()
+   {
+      $enquiry = new Enquiry("John", "Doe", "JohnDoe@gmail.com", "Subject", "Message");
+      $this->assertTrue($enquiry->is_valid());
+
+      $enquiry2 = new Enquiry("John", "", "JohnDoe@gmail.com", "Subject", "");
+      $this->assertFalse($enquiry2->is_valid());
+   }
 }
